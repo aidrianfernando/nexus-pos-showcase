@@ -45,7 +45,7 @@ NEXUS supports core retail operations including:
 - Notifications and settings
 - Standard and thermal receipts with QR and Code 128 identifiers
 
-## Architecture
+## ![](assets/icons/architecture.svg) Architecture
 
 The production architecture follows a layered full-stack design. React and Vite run on Vercel and communicate over HTTPS with a versioned `/api/v1` Express API running on Railway. Backend repositories access PostgreSQL through the database layer.
 
@@ -105,7 +105,7 @@ Security controls include JWT authentication, bcrypt password hashing, role-base
 - Automated CI verification
 - Production deployment on Vercel and Railway
 
-## Product Screenshots
+## ![](assets/icons/screenshots.svg) Product Screenshots
 
 ### Dashboard
 
@@ -131,7 +131,7 @@ The cashier workspace exposes only the operational views required for sales, rec
 
 Additional product views are available in [`assets/screenshots/`](assets/screenshots/), including inventory, stock movements, sales history, Return/Void workflows, transaction records, and purchase orders.
 
-## Selected Code Samples
+## ![](assets/icons/code.svg) Selected Code Samples
 
 The public repository contains a curated set of representative production-derived samples rather than the complete application source.
 
@@ -160,7 +160,7 @@ The selected test sample demonstrates request tracing, request-ID validation, st
 
 [Read the code-sample notes](docs/code-samples.md)
 
-## Testing & Reliability
+## ![](assets/icons/testing.svg) Testing & Reliability
 
 NEXUS has been verified through backend and frontend automated tests, regression testing, integration testing, authenticated end-to-end workflows, transaction reliability checks, concurrency testing, CI validation, and production smoke testing.
 
@@ -172,7 +172,7 @@ The public test sample intentionally excludes proprietary transaction, inventory
 - [Selected Code Samples](docs/code-samples.md)
 - [Screenshot and Publication Safety Plan](docs/screenshot-plan.md)
 
-## Source Code Boundary
+## ![](assets/icons/lock.svg) Source Code Boundary
 
 The complete NEXUS production source repository remains private and proprietary.
 
