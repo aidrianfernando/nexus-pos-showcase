@@ -1,6 +1,15 @@
-# NEXUS POS Showcase
+<div align="center">
 
-**Production-deployed Point of Sale and inventory management system built with React, Express, and PostgreSQL.**
+# NEXUS POS
+
+**Production-deployed Point of Sale & Inventory Management System**
+
+React | Vite | Node.js | Express | PostgreSQL | Vercel | Railway
+
+**Production Deployed | CI Verified | PostgreSQL-backed**
+
+</div>
+
 
 This public repository presents the architecture, engineering approach, selected representative code samples, automated testing evidence, and product screenshots for NEXUS while the complete production source remains private and proprietary.
 
@@ -139,7 +148,7 @@ The selected test sample demonstrates request tracing, request-ID validation, st
 
 [Read the code-sample notes](docs/code-samples.md)
 
-## Testing and Reliability
+## Testing & Reliability
 
 NEXUS has been verified through backend and frontend automated tests, regression testing, integration testing, authenticated end-to-end workflows, transaction reliability checks, concurrency testing, CI validation, and production smoke testing.
 
@@ -161,4 +170,4 @@ For legitimate technical evaluation, deeper source review may be provided throug
 
 ## Ownership
 
-Copyright Â© 2026 Aidrian A. Fernando. All Rights Reserved.
+Copyright © 2026 Aidrian A. Fernando. All Rights Reserved.
