@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 452 112" role="img" aria-labelledby="nexus-title">
+  <title id="nexus-title">NEXUS</title>
+  <defs>
+    <linearGradient id="nexus-gradient" x1="10" y1="12" x2="102" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7C3AED" />
+      <stop offset="0.52" stop-color="#4F46E5" />
+      <stop offset="1" stop-color="#0891B2" />
+    </linearGradient>
+    <mask id="nexus-cutouts" maskUnits="userSpaceOnUse" x="0" y="0" width="96" height="96">
+      <rect width="96" height="96" fill="white" />
+      <circle cx="22" cy="22" r="4.5" fill="black" />
+      <circle cx="22" cy="74" r="4.5" fill="black" />
+      <circle cx="48" cy="48" r="4.5" fill="black" />
+      <circle cx="74" cy="22" r="4.5" fill="black" />
+      <circle cx="74" cy="74" r="4.5" fill="black" />
+    </mask>
+  </defs>
+
+  <g transform="translate(8 8)">
+    <g fill="none" stroke="url(#nexus-gradient)" stroke-linecap="round" stroke-linejoin="round" mask="url(#nexus-cutouts)">
+      <path d="M22 74V22" stroke-width="10" />
+      <path d="M22 22L48 48L74 74" stroke-width="10" />
+      <path d="M74 74V22" stroke-width="10" />
+    </g>
+
+    <g fill="none" stroke="url(#nexus-gradient)" stroke-width="5">
+      <circle cx="22" cy="22" r="7" />
+      <circle cx="22" cy="74" r="7" />
+      <circle cx="48" cy="48" r="7" />
+      <circle cx="74" cy="22" r="7" />
+      <circle cx="74" cy="74" r="7" />
+    </g>
+
+    <circle cx="48" cy="48" r="3" fill="#0B1220" />
+  </g>
+
+  <g transform="translate(110 0)" fill="#0B1220">
+    <path d="M8 82V30H22L51 66V30H67V82H53L24 46V82Z" />
+    <path d="M79 30H127V43H95V50H124V62H95V69H128V82H79Z" />
+    <path d="M137 30H155L169 48L183 30H201L178 56L202 82H183L169 64L155 82H136L160 56Z" />
+    <path d="M212 30H228V62C228 68 232 71 239 71C246 71 250 68 250 62V30H266V63C266 76 256 84 239 84C222 84 212 76 212 63Z" />
+    <path d="M277 77L283 65C291 70 299 72 307 72C314 72 318 70 318 67C318 64 314 63 306 61C289 58 280 54 280 44C280 34 290 28 306 28C317 28 326 31 334 36L328 48C321 44 313 41 306 41C299 41 296 43 296 46C296 49 300 50 309 52C326 55 334 60 334 69C334 79 324 84 307 84C295 84 285 82 277 77Z" />
+  </g>
+</svg>

@@ -1,10 +1,22 @@
 <div align="center">
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/brand/nexus-logo-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/brand/nexus-logo-light.svg">
+  <img alt="NEXUS" src="assets/brand/nexus-logo-light.svg" width="360">
+</picture>
+
 # NEXUS POS
 
 **Production-deployed Point of Sale & Inventory Management System**
 
-React | Vite | Node.js | Express | PostgreSQL | Vercel | Railway
+<img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React">
+<img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white" alt="Vite">
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white" alt="Node.js">
+<img src="https://img.shields.io/badge/Express-111111?style=flat&logo=express&logoColor=white" alt="Express">
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL">
+<img src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white" alt="Vercel">
+<img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat&logo=railway&logoColor=white" alt="Railway">
 
 **Production Deployed | CI Verified | PostgreSQL-backed**
 
